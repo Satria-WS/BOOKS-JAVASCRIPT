@@ -1,0 +1,19 @@
+
+//pseudocode
+LOOP: while the ship is not sunk
+GET the user’s guess
+COMPARE the user’s input to valid input values
+IF the user’s guess is invalid,
+TELL user to enter a valid number
+ELSE
+ADD one to guesses
+IF the user’s guess matches a location
+ADD one to the number of hits
+IF number of hits is 3
+SET isSunk to true
+TELL user “You sank my battleship!”
+END IF
+END IF
+END ELSE
+END LOOP
+TELL user stats
