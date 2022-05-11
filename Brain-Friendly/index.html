@@ -9,12 +9,12 @@
       }
     </style>
     <script>
-      function init() {
-        var planet = document.getElementById("greenplanet");
-        planet.innerHTML = "Red Alert: hit by phaser fire!";
-        planet.setAttribute("class", "redtext");
+      var input = "jenny@wickedlysmart.com";
+      for (var i = 0; i < input.length; i++) {
+        if (input.charAt(i) === "@") {
+          console.log("There's an @ sign at index " + i);
+        }
       }
-      window.onload = init;
     </script>
   </head>
 
